@@ -1,0 +1,71 @@
+/* 全局样式设置 */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* 标题样式 */
+header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 个人信息部分 */
+.profile {
+    background-color: white;
+    border: 2px solid #e6e6e6;
+    border-radius: 8px;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 内容布局 */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* 照片样式 */
+.profile-photo {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* 信息部分 */
+.info {
+    max-width: 400px;
+    text-align: left;
+}
+
+/* 链接样式 */
+a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 页脚样式 */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
